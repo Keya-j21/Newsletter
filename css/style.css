@@ -39,7 +39,7 @@ a{
 .container{
 	width: 1140px;
 	margin: auto;
-	padding-bottom: 50px;
+	
 
 }
 .newsletter h1{
@@ -91,14 +91,28 @@ a{
 	
 	padding: 80px 0px;
 	text-align: center;
-
-}
-.container-1{width: 1140px;
-	margin: auto;
-	padding: 80px 80px 100px 80px;
 	background-color: #EEE;
+	
 
 }
+.letstalk .container h1{
+	margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 38px;
+    color: #2F323A;
+    font-family: 'Roboto', sans-serif;
+
+}
+.letstalk .container p{
+	font-size: 16px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	color:rgba(0,0,0,0.5);
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
 .namebox1{
 	width:28%;
 	padding:15px;
@@ -154,4 +168,61 @@ a{
 	background-color: tomato;
 	border:1px solid tomato;
 	cursor: pointer;
+}
+.footer{
+	background-color: #000;
+    width: 100%
+    padding:80px 0px;
+    padding-top: 100px;
+    height: 500px;
+}
+
+.col h6 {
+	color: white;
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 16px;
+	 font-weight: 700;
+	 margin-bottom: 20px;
+}
+
+.col .menu li a{
+	color: #CECECE;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+
+
+}
+.footer-menu{
+	display: flex;
+	justify-content: space-around;
+}
+hr{
+	background: #cecece;
+	height: 1px;
+	margin: 40px 0px;
+}
+.footer-bottom ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 2px solid #cecece;
+	padding-right: 10px;
+	margin-right: 10px;
+
+}
+.footer-bottom ul li a{
+	color: #CECECE;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+}
+.last{
+	border-right: 0px !important;
+}
+.footer-bottom p{
+	color: #CECECE;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	margin:  20px 0px;
 }
